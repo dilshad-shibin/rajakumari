@@ -394,16 +394,196 @@
 
 
 @media(max-width: 991px){
+    .brand-logos{
+        flex-wrap: wrap;
+    }
+    .video-area iframe{
+        width: 700px;
+        height: 500px;
+    }
+    .store-box{
+        min-height: auto;
+    }
+    .single-testi .name h3::before {
+        display: none;
+    }
 }
 
 @media(max-width: 767px){
+    .brand-head h1{
+        font-size: 26px;
+    }
+    .brand-head h1::before{
+        bottom: 12px;
+    }
+    .brand-head h1::after{
+        bottom: 12px;
+    }
+    .brand-logos>div{
+        margin-bottom: 10px;
+    }
+    .video-area iframe{
+        width: 500px;
+        height: 500px;
+    }
+    .store-bx2{
+        padding-left: 15px;
+    }
+    .store-bx2 .btn-store a{
+        padding: 14px 8px;
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .store-bx2 .text h1{
+        font-size: 24px;
+    }
+    .brand-head3 h1::after,
+    .brand-head3 h1::before{
+        display: none;
+    }
+    .text-center-md{
+        text-align: center;
+        justify-content: center !important;
+        padding-bottom: 30px;
+    }
+    .pp-left {
+        display: none;
+    }
 }
 
 @media(max-width:575px){
     footer{
-        margin-top: -190px;
+        padding-bottom: 0;
+    }
+    .copyright {
+        border-top: 1px solid #e7e2da;
+        padding: 15px 0;
     }
     footer .logo a img{
         max-width: 200px;
+    }
+    .navbar-dark .navbar-brand img{
+        max-width: 150px;
+    }
+    .form-title h4{
+        font-size: 30px;
+    }
+    .form-title p{
+        font-size: 17px;
+        margin-bottom: 22px;
+    }
+    .form-group input, .form-group select{
+        height: 50px;
+        padding-left: 15px;
+    }
+    .form-group input[type="submit"]{
+        height: 50px;
+        font-size: 16px;
+    }
+    .welcome-area{
+        height: 600px;
+    }
+    .welcome-form{
+        margin-top: 400px;
+        padding: 30px 20px;
+    }
+    .product-area{
+        padding-top: 180px;
+    }
+    .brand-head h1::before{
+       display: none;
+    }
+    .brand-head h1::after{
+        display: none;
+    }
+    .brand-head h1 {
+        font-size: 22px;
+    }
+    .brand-logos > div{
+        flex: 0 0 50%;
+        margin-bottom: 16px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .brand-logos > div img{
+        max-width: 120px;
+    }
+    .brand-logos {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .brand-head {
+        margin-bottom: 50px;
+    }
+    .about-inner {
+        padding-top: 80px;
+    }
+    .about-inner h1{
+        font-size: 32px;
+    }
+    .about-bg{
+        height: 965px;
+    }
+    .pro-box-last{
+        min-height: auto;
+        padding-bottom: 50px;
+    }
+    .video-section{
+        height: 260px;
+    }
+    .video-area {
+        margin-top: -180px;
+    }
+    .video-area iframe{
+        width: 100%;
+        height: 300px;
+    }
+    .store-bx2{
+        flex-direction: column;
+        height: 200px;
+        padding-top: 12px;
+    }
+    .store-bx2 .text{
+        margin-bottom: 25px;
+    }
+    .brand-head3 h1 {
+        font-size: 30px;
+    }
+    .brand-head2 h1 {
+        font-size: 30px;
+    }
+    .single-testi{
+        padding: 35px 40px;
+    }
+    .single-testi .icon img{
+        max-width: 30px;
+    }
+    .ct-inner h1{
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+    .ct-inner h3{
+        font-size: 20px;
+    }
+    .ct-form {
+        background: #000000b3;
+        padding: 40px 30px;
+    }
+    .mar-md-auto{
+        margin: 0 auto;
+    }
+    #letter5 select, #letter5 input{
+        height: 50px;
+    }
+    .brand-head4 h1 {
+        font-size: 22px;
+    }
+    .promise-box{
+        text-align: center;
+    }
+    .enq-side a{
+        display: block !important;
     }
 }
