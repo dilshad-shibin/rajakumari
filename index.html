@@ -50,40 +50,78 @@
         </header>
 
         <!-- ***** Welcome Area Start ***** -->
-        <section id="home" class="section welcome-area d-flex align-items-center">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <!-- Welcome Intro Start -->
-                    <div class="col-12 col-md-12 col-lg-6">
-                        <!-- <div class="inner-banner">
-                            <p>ഇനി താരം നിങ്ങളാകും</p>
-                        </div> -->
+        <section class="section">
+            <div class="banner-slider owl-carousel">
+                <div class="welcome-area d-flex align-items-center">
+                    <div class="container">
+                        <div class="row justify-content-between">
+                            <!-- Welcome Intro Start -->
+                            <div class="col-12 col-md-12 col-lg-6">
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-6">
+                                <div class="welcome-form">
+                                    <form name="form1" method="post" action="email.php">
+                                        <div class="form-title">
+                                            <h4>Lorem Ipsum is simply</h4>
+                                            <p>dummy text of the printing</p>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" placeholder="Email" class="form-control" name="email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Name" class="form-control" name="name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input placeholder="Phone" class="form-control" name="phone" required type="tel"
+                                                pattern="[0-9]{10}" maxlength="10"
+                                                oninvalid="this.setCustomValidity('Please Enter 10 Digit Number')"
+                                                onchange="this.setCustomValidity('')">
+                                        </div>
+                                        <div class="form-group form-group-btn">
+                                            <input type="hidden" name="esource" value="<?php echo $source;?>">
+                                            <input type="hidden" name="emedium" value="<?php echo $medium;?>">
+                                            <input type="submit" value="submit" class="form-control" name="submit">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6">
-                        <div class="welcome-form">
-                            <form name="form1" method="post" action="email.php">
-                                <div class="form-title">
-                                    <h4>Lorem Ipsum is simply</h4>
-                                    <p>dummy text of the printing</p>
+                </div>
+
+                <div class="welcome-area d-flex align-items-center">
+                    <div class="container">
+                        <div class="row justify-content-between">
+                            <!-- Welcome Intro Start -->
+                            <div class="col-12 col-md-12 col-lg-6">
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-6">
+                                <div class="welcome-form">
+                                    <form name="form1" method="post" action="email.php">
+                                        <div class="form-title">
+                                            <h4>Lorem Ipsum is simply</h4>
+                                            <p>dummy text of the printing</p>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" placeholder="Email" class="form-control" name="email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Name" class="form-control" name="name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input placeholder="Phone" class="form-control" name="phone" required type="tel"
+                                                pattern="[0-9]{10}" maxlength="10"
+                                                oninvalid="this.setCustomValidity('Please Enter 10 Digit Number')"
+                                                onchange="this.setCustomValidity('')">
+                                        </div>
+                                        <div class="form-group form-group-btn">
+                                            <input type="hidden" name="esource" value="<?php echo $source;?>">
+                                            <input type="hidden" name="emedium" value="<?php echo $medium;?>">
+                                            <input type="submit" value="submit" class="form-control" name="submit">
+                                        </div>
+                                    </form>
                                 </div>
-                                <div class="form-group">
-                                    <input type="email" placeholder="Email" class="form-control" name="email" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" placeholder="Name" class="form-control" name="name" required>
-                                </div>
-                                <div class="form-group">
-                                    <input placeholder="Phone" class="form-control" name="phone" required type="tel"
-                                        pattern="[0-9]{10}" maxlength="10"
-                                        oninvalid="this.setCustomValidity('Please Enter 10 Digit Number')"
-                                        onchange="this.setCustomValidity('')">
-                                </div>
-                                <div class="form-group form-group-btn">
-                                    <input type="hidden" name="esource" value="<?php echo $source;?>">
-                                    <input type="hidden" name="emedium" value="<?php echo $medium;?>">
-                                    <input type="submit" value="submit" class="form-control" name="submit">
-                                </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -279,7 +317,6 @@
                     <div class="col-12">
                         <div class="video-area">
                             <!-- <iframe width="1100" height="620" src="https://www.youtube.com/embed/K1NN6lEe_QQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  -->
-                            <!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/K1NN6lEe_QQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                             <iframe width="1100" height="620" src="https://www.youtube.com/embed/C0MVhsy6hLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>

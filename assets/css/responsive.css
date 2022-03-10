@@ -586,4 +586,7 @@
     .enq-side a{
         display: block !important;
     }
+    .owl-carousel .owl-stage-outer{
+        overflow: inherit;
+    }
 }
