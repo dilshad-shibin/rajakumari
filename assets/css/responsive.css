@@ -389,7 +389,10 @@
 /* ******************************
 :: 3.0 WELCOME AREA TO Start CSS
 ****************************** */
-@media(max-width: 1199px){
+@media(max-width: 1440px){
+    .welcome-form{
+        margin-right: 100px;
+    }
 }
 
 
@@ -449,6 +452,9 @@
     .pp-left {
         display: none;
     }
+    .welcome-form{
+        margin-right: 0px;
+    }
 }
 
 @media(max-width:575px){
@@ -484,11 +490,12 @@
         height: 600px;
     }
     .welcome-form{
-        margin-top: 400px;
+        margin-top: -330px;
         padding: 30px 20px;
     }
     .product-area{
         padding-top: 180px;
+        margin-top: -118px;
     }
     .brand-head h1::before{
        display: none;
