@@ -368,7 +368,7 @@ img {
 
 .form-title h4{
     color: #fff;
-    font-size: 50px;
+    font-size: 42px;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 1;
@@ -482,13 +482,13 @@ img {
 .banner-slider .owl-nav button.owl-prev{
     position: absolute;
     left: 25px;
-    top: 50%;
+    top: 40%;
 }
 
 .banner-slider .owl-nav button.owl-next {
     position: absolute;
     right: 25px;
-    top: 50%;
+    top: 40%;
 }
 
 .banner-slider .owl-nav button span {
@@ -1172,7 +1172,7 @@ footer .opening p{
     color: #fff;
     font-family: 'Playfair Display', serif;
     font-weight: 400; 
-    font-size: 28px;
+    font-size: 23px;
 }
 
 .store-bx2 .btn-store a{
@@ -1274,7 +1274,7 @@ footer .opening p{
 .ct-inner h1{
     color: #ffffff;
     font-family: 'Playfair Display', serif;
-    font-size: 55px;
+    font-size: 65px;
     margin-bottom: 10px;
     font-weight: 400;
 }
@@ -1283,7 +1283,7 @@ footer .opening p{
     color: #eeb96d;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 27px;
 }
 
 .ct-inner .head{
